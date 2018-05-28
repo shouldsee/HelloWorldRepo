@@ -60,16 +60,20 @@ So far you have made a local commit, that is not visible to others unless you em
 1. Now try `git push origin master`, which would push the `master` branch to `origin` remote.
     * And you would enter username and password to attempt this push.
     * And you would find yourself failed, since you are not authorised write permission of this repository.
+    * In real life, you would record the error message and search Google or StackOverflow for an answer.
 1. Okay, but we can always find another way.
     * Open the remote (https://github.com/shouldsee/HelloWorldRepo) as a webpage.
     * Click `Fork` on the top-right corner
     * Login if required
 1. You will now obtain a remote fork of this repository, associated with a url (which you can read off in the URL bar, often in the form `https://github.com/{YOUR_GITHUB_USERNAME}/HelloWorldRepo`)
     * now we are gonna do some magic to redirect the upstream to your new remote repository
-    * `git set-url origin https://github.com/{YOUR_GITHUB_USERNAME}/HelloWorldRepo`   (you will need to fill in this command before execution!!!)
+    * `git remote set-url origin https://github.com/{YOUR_GITHUB_USERNAME}/HelloWorldRepo`   (you will need to fill in this command before execution!!!)
 1. After redirect the `origin` to your newly forked repository, you can try to push the commit again
     * `git push origin master`
     * Enter github credential accordingly
     * Works like a charm hopefully
+
+
+**Feel free to PR this repository should you find any typo/bug.**
 
     
