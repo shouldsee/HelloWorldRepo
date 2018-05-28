@@ -73,7 +73,12 @@ So far you have made a local commit, that is not visible to others unless you em
     * Enter github credential accordingly
     * Works like a charm hopefully
 
+1. After pushing your changes to the remote copy on Github:
+    * You can browse it on your own copy at `https://github.com/{YOUR_GITHUB_USERNAME}/HelloWorldRepo``
+    * But it won't appear here `https://github.com/shouldsee/HelloWorldRepo`
+    * You can try to make a PR request to synchronise the lagged version to the newest version between the two remote copies. (But I won't accept memes PR!)
+    
 
-**Feel free to PR this repository should you find any typo/bug.**
+**Feel free to PR this repository should you find any typo/bug. But NO MEMES please.**
 
     
